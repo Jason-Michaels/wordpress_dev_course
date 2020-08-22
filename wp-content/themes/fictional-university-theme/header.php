@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<html <?php language_attributes() ?>>
 <head>
-	<?php wp_head(); ?>
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+	<meta charset="<?php bloginfo('charset')?>">
+  <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class() ?>>
 	<header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
